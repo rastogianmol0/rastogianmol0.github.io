@@ -1,43 +1,68 @@
-
 body{
-font-family: 'Comic Sans MS', 'Segoe Print', cursive;
-background:white;
-color:black;
-max-width:900px;
+font-family: Georgia, "Times New Roman", serif;
+background:#ffffff;
+color:#111;
+max-width:750px;
 margin:auto;
-padding:40px;
+padding:40px 20px;
+line-height:1.7;
+font-size:18px;
 }
 
-h1,h2,h3{
-border-bottom:2px dashed black;
-padding-bottom:5px;
+h1{
+font-size:40px;
+margin-top:40px;
+}
+
+h2{
+margin-top:40px;
+font-size:26px;
+}
+
+h3{
+margin-top:25px;
+}
+
+p{
+margin:18px 0;
+}
+
+ul{
+margin:20px 0;
+padding-left:25px;
+}
+
+li{
+margin:10px 0;
 }
 
 nav{
-margin:20px 0;
+margin-bottom:40px;
+border-bottom:1px solid #ddd;
+padding-bottom:10px;
 }
 
 nav a{
-margin-right:15px;
+margin-right:18px;
 text-decoration:none;
-color:black;
-border:2px solid black;
-padding:5px 10px;
-border-radius:8px;
+color:#000;
+font-weight:500;
+}
+
+nav a:hover{
+text-decoration:underline;
 }
 
 section{
-border:2px dashed black;
-padding:20px;
-margin:20px 0;
-border-radius:10px;
+margin-bottom:60px;
+}
+
+a{
+color:#000;
 }
 
 .btn{
-display:inline-block;
-border:2px solid black;
-padding:10px 15px;
+border:1px solid black;
+padding:8px 14px;
 text-decoration:none;
-color:black;
-margin-top:10px;
 }
