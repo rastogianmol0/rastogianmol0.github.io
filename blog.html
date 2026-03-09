@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,16 +18,24 @@
 <a href="contact.html">Contact</a>
 </nav>
 
-<section>
+<div class="container">
 
-<ul>
-<li><a href="blog/claude-sonnet-vs-haiku.html">Claude Sonnet vs Claude Haiku</a></li>
-<li><a href="blog/claude-haiku-vs-opus.html">Claude Haiku vs Claude Opus</a></li>
-<li><a href="blog/gpt5-vs-claude-copilot.html">GPT‑5 vs Claude for Copilot Systems</a></li>
-<li><a href="blog/agents-mcp.html">Agents and MCP</a></li>
-</ul>
+<div class="sidebar">
+<h3>Posts</h3>
 
-</section>
+<a href="#haiku-sonnet">Claude Sonnet vs Haiku</a>
+<a href="#haiku-opus">Claude Haiku vs Opus</a>
+<a href="#gpt-claude">GPT vs Claude for Copilot</a>
+<a href="#agents-mcp">Agents & MCP</a>
+
+</div>
+
+<div class="content" id="blogs"></div>
+
+</div>
+
+<script src="assets/js/loadBlogs.js"></script>
+<script src="assets/js/toc.js"></script>
 
 </body>
 </html>
